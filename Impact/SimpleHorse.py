@@ -1,5 +1,4 @@
 import sys
-import Assets
 import requests
 import urllib3
 
