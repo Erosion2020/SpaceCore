@@ -6,6 +6,6 @@
  |_____/| .__/ \__,_|\___\___|\_____\___/|_|  \___|
         | |
         |_|
-        Author                  version[v0.0.2]
+        Author                  version[v0.0.3]
         * ZeroCold
         * Hunter
