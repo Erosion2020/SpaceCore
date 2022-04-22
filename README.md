@@ -24,7 +24,7 @@ python SpaceCore.py
     * whois 域名/IP 查询
     * 基于NMAP扫描的HTTP资产发现
 * 漏洞利用模块
-    * 空
+    * 一句话连接脚本
 * 爆破模块
     * SSH爆破
 
