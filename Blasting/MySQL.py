@@ -19,7 +19,7 @@ def blasting_mysql():
         print(f"用户名选用{username_path}字典")
         username_path = f"./UsernameDic/{username_path}"
     elif selection == '2':
-        username_path = input("字典文件路径:")
+        username_path = input("用户名字典文件路径:")
     else:
         username_path = './UsernameDic/database_username.txt'
     selection = input("选用MySQL密码字典[0>系统默认[默认选择] 1>系统附带 2>自定义]:")
@@ -31,11 +31,11 @@ def blasting_mysql():
             array.append(item)
             print(index, ":", item)
             index += 1
-        index = int(input("选择一个密码字典"))
+        index = int(input("选择一个密码字典:"))
         password_path = array[index % len(array)]
         password_path = f"./PasswordDic/{password_path}"
     elif selection == '2':
-        password_path = input("字典文件路径:")
+        password_path = input("密码字典文件路径:")
     else:
         password_path = './PasswordDic/top1000.txt'
     with open(username_path, 'r+') as usernames:
