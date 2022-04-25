@@ -26,7 +26,8 @@ python SpaceCore.py
 * 漏洞利用模块
     * 一句话连接脚本
 * 爆破模块
-    * SSH爆破
+    * SSH弱口令爆破
+    * MySQL弱口令爆破
 
 ## 下版本预计新增
 
