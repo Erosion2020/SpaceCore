@@ -17,6 +17,3 @@ def start(ip, port):
     else:
         print(f"[ ] {ip}:{port} 未检测到[{index}]漏洞")
 
-
-if __name__ == "__main__":
-    start('10.100.30.141', 49163)

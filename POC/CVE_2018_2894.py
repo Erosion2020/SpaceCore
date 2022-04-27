@@ -16,7 +16,7 @@ def start(ip, port):
     for req_url in req_urls:
         try:
             req = requests.Session()
-            if req.get(req_url, headers=headers):
+            if req.get(req_url, headers=headers).status_code == 200:
                 fragile = True
         except Exception as ex:
                 pass
