@@ -21,17 +21,20 @@ python SpaceCore.py
 ## 支持功能
 
 * 资产模块
-    * whois 域名/IP 查询
-    * 基于NMAP扫描的HTTP资产发现
+  * whois 域名/IP 查询
+  * 基于NMAP扫描的HTTP资产发现
 * 漏洞利用模块
-    * 一句话连接脚本
+  * 一句话连接脚本
 * 爆破模块
-    * SSH弱口令爆破
-    * MySQL弱口令爆破
+  * SSH弱口令爆破
+  * MySQL弱口令爆破
+* 漏洞扫描模块
+  * Web Logic常见CVE漏洞扫描
 
 ## 下版本预计新增
 
 * 子域名查询
+* 常见中间件CVE漏扫
 
 
 ## 下一步计划

@@ -2,6 +2,7 @@ import sys
 
 import Assets
 import Blasting.Start
+import FragileScan.Start
 import Impact.Start
 
 name = "SpaceCore"
@@ -14,6 +15,7 @@ def menu():
     print("1、信息收集")
     print("2、漏洞利用")
     print("3、字典爆破")
+    print("4、漏洞检测")
     print("输入exit退出脚本/输入help查看帮助")
     print("------------------------------END--------------------------------")
 
@@ -37,6 +39,8 @@ def start():
             Impact.Start.start()
         elif option == '3':
             Blasting.Start.start()
+        elif option == '4':
+            FragileScan.Start.start()
         elif option == 'help':
             menu()
             menu_help()
