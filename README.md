@@ -30,6 +30,7 @@ python SpaceCore.py
   * MySQL弱口令爆破
 * 漏洞扫描模块
   * Web Logic常见CVE漏洞扫描
+  * Tomcat 常见CVE漏洞扫描
 
 ## 下版本预计新增
 
